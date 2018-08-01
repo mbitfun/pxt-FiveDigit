@@ -7,7 +7,7 @@ namespace fiveDigit {
             let p = x - 5 + str.length
             let d = p < 0 ? 0 : parseInt(str.substr(p, 1))
             for (let y = 0; y < 5; y++)
-                (y > 0 ? (d - 5 * (d < 5 ? 0 : 1) >= y) : (d > 4)) ? led.plot(x, y) : led.unplot(x, y)
+                (y > 0 ? (d - 5 * (d < 5 ? 0 : 1) >= 5 - y) : (d > 4)) ? led.plot(x, y) : led.unplot(x, y)
         }
     }
 }
