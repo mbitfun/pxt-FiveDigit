@@ -6,7 +6,7 @@ This library makes it possible to show 5 digit number on one screen.
 ---
 You can show numbers like an abacus with this package as below.
 
-![Numbers](https://github.com/mbitfun/pxt-fiveDigit/blob/readme/statics/numbers.PNG "numbers")
+![Numbers](https://github.com/mbitfun/pxt-fiveDigit/blob/readme/statics/numbers.png "numbers")
 
 Up to 5 digits can be displayed. For example, 12345 is as shown below.
 
