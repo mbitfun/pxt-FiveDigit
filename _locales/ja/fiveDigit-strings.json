@@ -1,4 +1,4 @@
 {
   "fiveDigit.showNumber|block": "数を表示%num",
-  "{id:category}FiveDigit": "そろばん"
+  "{id:category}FiveDigit": "5桁表示"
 }
