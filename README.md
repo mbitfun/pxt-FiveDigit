@@ -15,13 +15,16 @@ Up to 5 digits can be displayed. For example, 12345 is as shown below.
 Since the beta editor corresponds to the flow point, it can also be displayed at the decimal point.
 Numbers below the decimal point blink.
 
-![flow point](https://github.com/mbitfun/pxt-fiveDigit/blob/readme/statics/flowPoint.gif "flow point")
+![flow point](https://github.com/mbitfun/pxt-fiveDigit/blob/readme/statics/floatingPoint.gif "floating point")
 
 ## Basic Usage
 ---
 ```
-fiveDigit.showString(number)
+fiveDigit.showNumber(number)
 ```
+
+The argument 'number' can be an Integer only in the editor of the current version (https://makecode.microbit.org).
+But it can be the Floating point in the editor in Beta (https://makecode.microbit.org/beta#editor).
 
 
 ## License
