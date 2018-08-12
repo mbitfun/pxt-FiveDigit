@@ -15,7 +15,7 @@ namespace fiveDigit {
                 break
             }
         str = dotPosition ? (str.substr(0, dotPosition) + str.substr(dotPosition + 1)).substr(0, 5) : str
-        if (parseInt(str) > 99999 || dotDuplication > 1 || NaN)
+        if (num > 99999 || dotDuplication > 1 || NaN)
             basic.showString("E")
         else
             for (let count = 0; count < totalCount; count++) {
