@@ -3,7 +3,6 @@ namespace fiveDigit {
     //% blockId=show_number block="Show a number %num"
     export function showNumber(num: number = 0, interval: number = 500, totalCount: number = 10): void {
         let str = num.toString()
-        str ＝　str
         let dotPosition = 0
         let dotDuplication = 0
         let NaN = false
