@@ -1,6 +1,6 @@
 {
     "name": "fiveDigit",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "fiveDigit",
     "license": "MIT",
     "dependencies": {
