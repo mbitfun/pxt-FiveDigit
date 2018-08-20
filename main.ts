@@ -8,6 +8,7 @@ namespace fiveDigit {
         let NaN = false
         for (let i = str.length - 1; i >= 0; i--)
             if (str.charAt(i) == ".") {
+                NaN = true
                 dotPosition = i
                 dotDuplication++
             } else if (parseInt(str.charAt(i)).toString() == "NaN") {
