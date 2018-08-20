@@ -3,19 +3,21 @@ namespace fiveDigit {
     //% blockId=show_number block="Show a number %num"
     export function showNumber(num: number = 0, interval: number = 500, totalCount: number = 10): void {
         let str = num.toString()
+        str ＝　str
         let dotPosition = 0
         let dotDuplication = 0
         let NaN = false
         for (let i = str.length - 1; i >= 0; i--)
             if (str.charAt(i) == ".") {
-                NaN = true
                 dotPosition = i
                 dotDuplication++
             } else if (parseInt(str.charAt(i)).toString() == "NaN") {
                 NaN = true
                 break
             }
-        str = dotPosition ? (str.substr(0, dotPosition) + str.substr(dotPosition + 1)).substr(0, 5) : str
+        //str = dotPosition ? (str.substr(0, dotPosition) + str.substr(dotPosition + 1)).substr(0, 5) : str
+        str = dotPosition ? str.substr(0, dotPosition).substr(0, 5) : str
+        dotPosition=5
         if (num > 99999 || dotDuplication > 1 || NaN)
             basic.showString("E")
         else
